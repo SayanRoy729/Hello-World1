@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+
+/* home-page css */
+#home{
+    
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#home::before{
+    content: "";
+    background: url(food6.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    
+
+    
+}
+#home2{
+    display: flex;
+    flex-direction: column;
+}
+
+#home_left{
+    margin-top: 20px;
+    margin-left: 20px ;
+    font-weight: bolder;
+    color: white;
+} 
+
+#home #home_right {
+    margin-left: 53rem;
+}
+
+#home #home_right #login{
+    display: flex;
+    list-style: none;
+    margin-left: 132px;
+    font-weight: bolder;
+    color: white;
+    
+}
+#home #home_right #login #item{
+    display: block;
+    padding: 20px 10px;
+}
+
+#home_zomato{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#home_zomato_zomato{
+    margin: auto;
+    font-size: 7rem;
+    margin-top: 5rem;
+    color: white;
+    
+}
+#home_zomato_para{
+    margin: 0 px ;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0px;
+    
+    font-weight: bold;
+}
+
+#home_zomato #search{
+
+    
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 9.8rem;
+    width: 50rem;
+    height: 3rem;
+}
+
+
+/* next of home */
+
+
+#home_next{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 2rem 0rem;
+}
+
+
+#home_next #Order_food_online{
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 34px;
+}
+#home_next #Order_food_online #img1{
+    width: 100%;
+    height: auto;
+}
+
+#home_next #Order_food_online #Order_food_online_head{
+    text-align: center;
+}
+
+
+#home_next #Order_food_online #Order_food_online_para{
+    text-align: center;
+}
+
+
+#home_next #Go_out_for_meal{
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 34px;
+}
+#home_next #Go_out_for_meal #img2{
+    width: 100%;
+    height: auto;
+}
+
+#home_next #Go_out_for_meal #Go_out_for_meal_head{
+    text-align: center;
+}
+
+
+#home_next #Go_out_for_meal #Go_out_for_meal_para{
+    text-align: center;
+}
+
+
+#home_next #zomato_gold{
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 34px;
+}
+
+#home_next #zomato_gold #img3{
+    width: 100%;
+    height: auto;
+}
+
+#home_next #zomato_gold #zomato_gold_head{
+    text-align: center;
+}
+
+#home_next #zomato_gold #zomato_gold_para{
+    text-align: center;
+}
